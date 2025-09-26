@@ -57,10 +57,12 @@ This portfolio showcases my journey as an AI/ML Engineer, featuring:
    
    Create a `.env` file in the root directory:
    ```env
-   VITE_APP_EMAILJS_SERVICE_ID=your_service_id
-   VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
-   VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+   VITE_APP_EMAILJS_SERVICE_ID=your_service_id_here
+   VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id_here
+   VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key_here
    ```
+   
+   **⚠️ Important**: Never commit your `.env` file to Git! It contains sensitive API keys.
 
 4. **Start development server**
    ```bash
